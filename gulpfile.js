@@ -51,7 +51,7 @@ gulp.task('script', function () {
 
 gulp.task('js', function(){
   return gulp.src([
-    //'node_modules/slick-carousel/slick/slick.js' // слик слайдер
+    'node_modules/slick-carousel/slick/slick.js' // слик слайдер
     // 'node_modules/magnific-popup/dist/jquery.magnific-popup.js' // всплывающее окно, попап картинок (увеличение картинки при клике)
     // 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js'  // предпочтительно попап картинок, видео и прочего (увеличение картинки при клике)
     // 'node_modules/wow.js/dist/wow.js'  // анимация элементов сайта при скролле(в паре с animate.css)
