@@ -22,6 +22,10 @@ li{
   list-style: none;
 }
 
+html,
+body{
+  height: 100%;
+}
 
 body{
   font-family: 'Roboto-Regular', sans-serif;
@@ -29,6 +33,7 @@ body{
   line-height: 24px;
   color: $text;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 .container{
