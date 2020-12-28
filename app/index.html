@@ -32,7 +32,7 @@
               +61 3 8376 6284
             </a>
           </div>
-  
+
           <div class="header__box">
             <div class="notification__box header__btn-login--off">
               <a class="notification header__circle active icon-bell-o" href="#">
@@ -195,7 +195,7 @@
                 </ul>
               </div>
             </div>
-            <a class="header__btn header__btn-login" href="#">Login</a>
+            <a class="header__btn header__btn-login" data-fancybox data-src="#modal" href="javascript:;">Login</a>
             <a class="header__btn header__btn-logout header__btn-login--off" href="#">Logout</a>
             <a class="header__btn header__btn-register" href="#">Register</a>
           </div>
@@ -1174,6 +1174,26 @@
       </div>
     </div>
   </footer>
+
+
+  <div id="modal">
+    <div class="login__wrapper">
+      <div class="login__title">
+        login
+      </div>
+      <form>
+        <label class="login__label-name">
+          <input type="text" placeholder="Name" required>
+        </label>
+        <label class="login__label-pass">
+          <input type="text" placeholder="Password" required>
+        </label>
+        <button type="submit">submit</button>
+        <a class="creat-acc" href="#">Creat An Account?</a>
+        <a class="lost-pass" href="#">Lostt Password?</a>
+      </form>
+    </div>
+  </div>
 
 
 

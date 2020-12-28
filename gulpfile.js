@@ -26,11 +26,11 @@ gulp.task('scss', function(){
 gulp.task('css', function () {
   return gulp.src([
     'node_modules/normalize.css/normalize.css',
-    'node_modules/slick-carousel/slick/slick.css'
+    'node_modules/slick-carousel/slick/slick.css',
     // 'node_modules/rateyo/lib/cjs/rateyo.css'
     // 'node_modules/animate.css/animate.css'
     // 'node_modules/magnific-popup/dist/magnific-popup.css'
-    // 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css'
+    'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css'
     // 'node_modules/fullpage.js/dist/fullpage.css'
     // 'node_modules/webui-popover/dist/jquery.webui-popover.css'
     // 'node_modules/pagepiling.js/dist/jquery.pagepiling.css'
@@ -53,10 +53,10 @@ gulp.task('script', function () {
 gulp.task('js', function(){
   return gulp.src([
     'node_modules/mixitup/dist/mixitup.js',
-    'node_modules/slick-carousel/slick/slick.js'
+    'node_modules/slick-carousel/slick/slick.js',
     // 'node_modules/rateyo/lib/cjs/rateyo.js'
     // 'node_modules/magnific-popup/dist/jquery.magnific-popup.js' // всплывающее окно, попап картинок (увеличение картинки при клике)
-    // 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js'  // предпочтительно попап картинок, видео и прочего (увеличение картинки при клике)
+    'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js'  // предпочтительно попап картинок, видео и прочего (увеличение картинки при клике)
     // 'node_modules/wow.js/dist/wow.js'  // анимация элементов сайта при скролле(в паре с animate.css)
     // 'node_modules/waypoints/lib/jquery.waypoints.js' // действия на контрольных точках
     // 'node_modules/jquery.spincrement.js' // устанавливается файлом, счетчик чисел, работает сам или в паре с waypoints.js
