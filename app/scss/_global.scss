@@ -80,3 +80,25 @@ body{
     font-size: 14px;
   }
 }
+
+.acide__item{
+  padding: 20px 30px 30px;
+  border: 1px solid #dedede;
+  margin-bottom: 30px;
+}
+
+.acide__title{
+  font-size: 20px;
+  color: $bg;
+  position: relative;
+  @include f700;
+  margin-bottom: 45px;
+  &::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #dedede;
+    bottom: -18px;
+  }
+}
